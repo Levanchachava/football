@@ -1,0 +1,17 @@
+.Dplayer-cont {
+    display: flex;
+    margin: 40px;
+
+}
+
+.Dplayer-cont .name {
+    max-width: 300px;
+}
+
+.Dplayer-cont img {
+    width: 250px;
+}
+
+.player-info {
+    margin: 10px;
+}

@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.allplayers-cont {
+    margin: 6px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgb(27, 13, 13);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.allplayers-cont:hover {
+    box-shadow: 1px 1px 15px black;
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+.allplayers-cont img {
+    width: 200px;
+}
+
+
+.name {
+    max-width: 190px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.age {
+    margin-top: 3px;
+}
+
+.allplayers-cont button {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 120px;
+    height: 23px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.allplayers-cont button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+}
